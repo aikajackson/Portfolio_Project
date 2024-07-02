@@ -17,7 +17,14 @@
 
 <body>
     <div class="container">
-        <div id="google_translate_element" style="max-width:100%"></div>
+        <div class="row">
+            <div class="col">
+                <div id="skip"><a href="#content">SKIP TO CONTENT</a></div>
+            </div>
+            <div class="col">
+                <div id="google_translate_element" style="max-width:100%"></div>
+            </div>
+        </div>
     </div>
     <script type="text/javascript">
         function googleTranslateElementInit() {
@@ -55,6 +62,7 @@
 			</div>
 		</nav>
 	</div>
+<div id="content">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -92,16 +100,16 @@
     <br>
     <br>
     <br>
-      <div class="container">
+      <div class="container appear">
         <div class="row">
             <div class="col">
-                <div class="form-container">
+                <div class="appear2" id="form-container">
                     <form id='submit-to-google-sheet' method="post" action="https://script.google.com/macros/s/AKfycbwI5GnBqtk6KB3jBVmWNtzGGMH5lUf9W6a2SfgEL5DXCLTGuL3r0nGf48fKS7pAB5RK/exec">
                        <input type="text" id="name" name="Name" placeholder="Your Name" required>
                        <input type="email" id="email" name="Email" placeholder="Your Email" required>
                        <input type="text" id="phone" name="Phone" placeholder="Your Phone" required>
                        <textarea id="message" name="Message" rows="4" placeholder="Your Message"></textarea>
-                       <button type="submit">Send</button>
+                       <button class="send" type="submit">Send</button>
                    </form>
                 </div>
             </div>
@@ -120,48 +128,52 @@
     <br>
     <br>
     <br>
-    <div class="container" id="learn-more-container">
-        <div class="row">
-            <div class="col">
-                <h3 class="inspiration">WHERE DID I GET MY INSPIRATION FROM? <button class="toggle-button-1" id="toggleButtonOne">&#9660;</button></h3>
-                <br>
+    <div class="container appear3">
+        <div class="appear4" id="learn-more-container">
+            <div class="row">
                 <div class="col">
-                    <p class="here-word">See a list of all my sources <a href="https://docs.google.com/document/d/10nUXWvce97F6BMCb7A-nfLVOCOPT4xCd-IsJKHprMOE/edit?usp=sharing" class="here-link" target="_blank">HERE.</a></p>
-                    <br>
-                </div>
-                <div class="row">
-                    <h3 class="wireframe"> WHAT DID MY INITIAL WEBPAGE WIREFRAME LOOK LIKE? <button class="toggle-button-2" id="toggleButtonTwo">&#9660;</button></h3>
-                    <br>
-                    <br>
-                    <br>
-                    <div class="col-md-4">
-                        <img src="Screenshot 2024-07-01 145703.png" class="wireframe-1" alt="Home Page Wireframe" style="max-width:70%">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="Screenshot 2024-07-01 145823.png" class="wireframe-2" alt="Projects and Contact Wireframe" style="max-width:70%">
-                    </div>
-                    <div class="col-md-4">
-                        <img src="Screenshot 2024-07-01 145925.png" class="wireframe-3" alt="Contact Form Wireframe" style="max-width:70%">
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-                    <br>
-                <div class="row">
-                    <h3 class="challenge">WHAT WAS THE MOST CHALLENGING PART OF CODING MY WEBPAGE? <button class="toggle-button-3" id="toggleButtonThree">&#9660;</button></h3>
-                    <br>
-                    <br>
+                    <h3 class="inspiration">WHERE DID I GET MY INSPIRATION FROM? <button class="toggle-button-1" id="toggleButtonOne">&#9660;</button></h3>
                     <br>
                     <div class="col">
-                        <p class="about-challenge">The biggest obstacle by far was making my webpage responsive. I felt that there was quite a learning curve in understanding the row and column elements of the grid property, but with some trial and error, I was able to figure out their respective roles.</p>
+                        <p class="here-word">See a list of all my sources <a href="https://docs.google.com/document/d/10nUXWvce97F6BMCb7A-nfLVOCOPT4xCd-IsJKHprMOE/edit?usp=sharing" class="here-link" target="_blank">HERE.</a></p>
+                        <br>
+                    </div>
+                    <div class="row">
+                        <h3 class="wireframe"> WHAT DID MY INITIAL WEBPAGE WIREFRAME LOOK LIKE? <button class="toggle-button-2" id="toggleButtonTwo">&#9660;</button></h3>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="col-md-4">
+                            <img src="Screenshot 2024-07-01 145703.png" class="wireframe-1" alt="Home Page Wireframe" style="max-width:70%">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="Screenshot 2024-07-01 145823.png" class="wireframe-2" alt="Projects and Contact Wireframe" style="max-width:70%">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="Screenshot 2024-07-01 145925.png" class="wireframe-3" alt="Contact Form Wireframe" style="max-width:70%">
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                    </div>
+                        <br>
+                    <div class="row">
+                        <h3 class="challenge">WHAT WAS THE MOST CHALLENGING PART OF CODING MY WEBPAGE? <button class="toggle-button-3" id="toggleButtonThree">&#9660;</button></h3>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="col">
+                            <p class="about-challenge">The biggest obstacle by far was making my webpage responsive. I felt that there was quite a learning curve in understanding the row and column elements of the grid property, but with some trial and error, I was able to figure out their respective roles.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
     </div>
-
+    <br>
+    <br>
+    <br>
     <footer>Copyright &copy; 2024 Aika Chikayama-Jackson</footer>
+</div>
     <script src="contact.js"></script>
 </body>
 </html>

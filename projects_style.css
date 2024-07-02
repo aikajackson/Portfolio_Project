@@ -1,3 +1,19 @@
+#skip{
+    font-family: "Spectral";
+    font-size: 15px;
+    color: #4a2f09;
+    text-decoration: none;
+    position: relative;
+    left: 18%;
+    margin-top: 1%;
+}
+a{
+    text-decoration: none;
+    color: #4a2f09;
+    font-family: "Spectral";
+    font-weight: bold;
+    font-size: 20px;
+}
 #google_translate_element select{
     font-family: "Spectral";
     color: #4a2f09;
@@ -11,6 +27,11 @@
     right: 1%;
     margin-top: 1%;
     margin-bottom: 0%;
+}
+.goog-te-gadget{
+    position: relative;
+    left: 50%;
+    max-width: 50%;
 }
 .navbar {
     background-color: #fff;
@@ -75,7 +96,7 @@
 }
 .navbar a:hover {
     background-color: #BDA592;
-    color: black;
+    color: #4a2f09;
 }
 body {
     background-image: url(Screenshot\ 2024-06-17\ 212128.png);
@@ -94,6 +115,26 @@ body {
     color: #4a2f09;
     text-align: center;
     padding-bottom: 5px;
+}
+.slide-up{
+    width: 100%;
+    animation: 2s slide-up forwards;
+    overflow: hidden;
+    transform: translateY(100%);
+}
+@keyframes slide-up {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+#slide-up-2{
+    animation-delay: 0.5s;
+}
+#slide-up-3{
+    animation-delay: 1s;
 }
 .screenshot {
     display: block;
@@ -145,6 +186,7 @@ body {
     font-size: 24px;
     color: #fff;
     text-align: center;
+    font-weight: bold;
 
 }
 .text-3{
@@ -152,6 +194,7 @@ body {
     font-size: 20px;
     color: #4a2f09;
     text-align: center;
+    font-weight: bold;
 }
 footer{
     font-family: "Macondo";
