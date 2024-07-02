@@ -1,3 +1,19 @@
+#skip{
+    font-family: "Spectral";
+    font-size: 15px;
+    color: #4a2f09;
+    text-decoration: none;
+    position: relative;
+    left: 18%;
+    margin-top: 1%;
+}
+a{
+    text-decoration: none;
+    color: #4a2f09;
+    font-family: "Spectral";
+    font-weight: bold;
+    font-size: 20px;
+}
 #google_translate_element select{
     font-family: "Spectral";
     color: #4a2f09;
@@ -11,6 +27,11 @@
     right: 1%;
     margin-top: 1%;
     margin-bottom: 0%;
+}
+.goog-te-gadget{
+    position: relative;
+    left: 50%;
+    max-width: 50%;
 }
 .navbar {
     background-color: #fff;
@@ -75,7 +96,7 @@
 }
 .navbar a:hover {
     background-color: #BDA592;
-    color: black;
+    color: #4a2f09;
 }
 .visual-works{
     font-family: "Sedan SC";
@@ -83,17 +104,30 @@
     text-align: center;
     padding-bottom: 5px;
 }
-.art-abilities{
+.slide-left {
+    width: 100%;
+    animation: 2s slide-left;
+  }
+@keyframes slide-left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+}
+#art-abilities{
     font-family: "Sedan SC";
     color: #4a2f09;
     position: relative;
 }
-.about-visual-works{
+#about-visual-works{
     background-color: #fff;
+    color: #4a2f09;
     font-family: "Spectral";
     font-size: 20px;
     text-align: center;
-    width: 75%;
+    width: 65%;
     line-height: 25px;
     border:#4a2f09, solid, 2px;
     border-radius: 20px;
@@ -172,26 +206,43 @@ footer{
     color: #4a2f09;
     text-align: center;
 }
+.appear{
+    transition: all 0.8s;
+    opacity: 0;
+    transform: translateY(40px);
+}
+.appear.inview {
+    opacity: 1;
+    transform: none;
+    transition-delay: 0.3s;
+}
+.appear2.inview2:nth-child(1) {
+    transition-delay: 0.1s;
+}
+.appear2.inview2:nth-child(2) {
+    transition-delay: 0.2s;
+}
 .coding-skills{
     font-family: "Sedan SC";
     color: #4a2f09;
     text-align: center;
     padding-bottom: 5px;
 }
-.coding-skills-image{
+#coding-skills-image{
     border: 2px solid #4a2f09;
     border-radius: 20px;
     position: relative;
     left: 11%;
     
 }
-.programming-languages{
+#programming-languages{
     font-family: "Sedan SC";
     color: #4a2f09;
     position: relative;
 }
-.about-programming{
+#about-programming{
     background-color: #fff;
+    color:#4a2f09;
     font-family: "Spectral";
     font-size: 20px;
     text-align: center;

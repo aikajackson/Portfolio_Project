@@ -1,3 +1,19 @@
+#skip{
+    font-family: "Spectral";
+    font-size: 15px;
+    color: #4a2f09;
+    text-decoration: none;
+    position: relative;
+    left: 18%;
+    margin-top: 1%;
+}
+a{
+    text-decoration: none;
+    color: #4a2f09;
+    font-family: "Spectral";
+    font-weight: bold;
+    font-size: 20px;
+}
 #google_translate_element select{
     font-family: "Spectral";
     color: #4a2f09;
@@ -11,6 +27,11 @@
     right: 1%;
     margin-top: 1%;
     margin-bottom: 0%;
+}
+.goog-te-gadget{
+    position: relative;
+    left: 50%;
+    max-width: 50%;
 }
 .navbar {
     background-color: #fff;
@@ -88,7 +109,7 @@
 }
 .navbar a:hover {
     background-color: #BDA592;
-    color: black;
+    color: #4a2f09;
 }
 body {
     background-image: url(Screenshot\ 2024-06-17\ 212128.png);
@@ -108,15 +129,41 @@ body {
     text-align: center;
     padding-bottom: 5px;
 }
-.short-term{
+.slide-right, .slide-left {
+    width: 100%;
+}
+.slide-right {
+    animation: 2s slide-right;
+}
+@keyframes slide-right {
+    from {
+      margin-left: -100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+}
+.slide-left {
+    animation: 2s slide-left;
+  }
+@keyframes slide-left {
+    from {
+      margin-left: 100%;
+    }
+    to {
+      margin-left: 0%;
+    }
+}
+#short-term{
     font-family: "Sedan SC";
     color: #4a2f09;
     text-align: left;
     padding-bottom: 5px;
 }
-.about-short-term{
+#about-short-term{
     background-color: #fff;
     font-family: "Spectral";
+    color: #4a2f09;
     font-size: 20px;
     text-align: center;
     width: 100%;
@@ -126,15 +173,24 @@ body {
     padding: 14px 16px;
     position: relative;
 }
-.long-term{
+.future-picture{
+    border: 2px solid #4a2f09;
+    border-radius: 20px;
+    position: relative;
+    top: 30%;
+    left: 10%;
+
+}
+#long-term{
     font-family: "Sedan SC";
     color: #4a2f09;
     text-align: right;
     padding-bottom: 5px;
 }
-.about-long-term{
+#about-long-term{
     background-color: #fff;
     font-family: "Spectral";
+    color: #4a2f09;
     font-size: 20px;
     text-align: center;
     width: 100%;
