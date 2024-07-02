@@ -1,0 +1,160 @@
+#google_translate_element select{
+    font-family: "Spectral";
+    color: #4a2f09;
+    font-size: 15px;
+    border: 2px solid #4a2f09;
+    border-radius: 20px;
+    padding: 4px 4px;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    right: 1%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+.navbar {
+    background-color: #fff;
+    border: 2px solid #4a2f09;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    word-spacing: 2px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.navbar {
+    background-color: #fff;
+    border: 2px solid #4a2f09;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    word-spacing: 2px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*this is set for the small screen breakpoint*/
+@media screen and (max-width:576px){
+	.navbar{
+		height:auto;
+		background:unset;
+		border:unset;
+	}
+	.navbar-toggler {
+    	border: 2px solid #4a2f09 !important;
+		background:#fff;
+		margin-left:auto;
+	}
+	.nav{ 
+		background-color: #fff;
+    	border: 2px solid #4a2f09;
+    	border-radius: 20px;
+		padding:10px;
+	}
+	.nav-item{
+		width:100%;
+	}
+	.nav-link{
+		width:100%;
+		text-align:center;
+	}
+}
+.navbar a {
+    font-family: "Macondo";
+    float: left;
+    color: #4a2f09;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+}
+.navbar a:hover {
+    background-color: #BDA592;
+    color: black;
+}
+body {
+    background-image: url(Screenshot\ 2024-06-17\ 212128.png);
+    background-repeat: repeat;
+    background-size: 100% auto;
+	background-attachment: fixed;
+}
+@media screen and (max-width:768px){
+	body{
+		background-size:cover;
+		background-position:top center;
+	}
+}
+.project-portfolio{
+    font-family: "Sedan SC";
+    color: #4a2f09;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.screenshot {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.col-md-4{
+    position: relative;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid #4a2f09;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:rgba(189, 165, 146, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.image:hover .overlay{
+    opacity: 1;
+}
+.text{
+    font-family: "Spectral";
+    font-size: 20px;
+    color:#4a2f09;
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    line-height: 25px;
+    border:#4a2f09, solid, 2px;
+    border-radius: 20px;
+    padding: 14px 16px;
+    position: relative;
+}
+.text-2{
+    font-family: "Sedan SC";
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+
+}
+.text-3{
+    font-family: "Sedan SC";
+    font-size: 20px;
+    color: #4a2f09;
+    text-align: center;
+}
+footer{
+    font-family: "Macondo";
+    color: #4a2f09;
+    text-align: center;
+}

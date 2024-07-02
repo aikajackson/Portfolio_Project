@@ -1,0 +1,220 @@
+#google_translate_element select{
+    font-family: "Spectral";
+    color: #4a2f09;
+    font-size: 15px;
+    border: 2px solid #4a2f09;
+    border-radius: 20px;
+    padding: 4px 4px;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    right: 1%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+.navbar {
+    background-color: #fff;
+    border: 2px solid #4a2f09;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    word-spacing: 2px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.navbar {
+    background-color: #fff;
+    border: 2px solid #4a2f09;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    word-spacing: 2px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*this is set for the small screen breakpoint*/
+@media screen and (max-width:576px){
+	.navbar{
+		height:auto;
+		background:unset;
+		border:unset;
+	}
+	.navbar-toggler {
+    	border: 2px solid #4a2f09 !important;
+		background:#fff;
+		margin-left:auto;
+	}
+	.nav{ 
+		background-color: #fff;
+    	border: 2px solid #4a2f09;
+    	border-radius: 20px;
+		padding:10px;
+	}
+	.nav-item{
+		width:100%;
+	}
+	.nav-link{
+		width:100%;
+		text-align:center;
+	}
+}
+.navbar a {
+    font-family: "Macondo";
+    float: left;
+    color: #4a2f09;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+}
+.navbar a:hover {
+    background-color: #BDA592;
+    color: black;
+}
+.visual-works{
+    font-family: "Sedan SC";
+    color: #4a2f09;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.art-abilities{
+    font-family: "Sedan SC";
+    color: #4a2f09;
+    position: relative;
+}
+.about-visual-works{
+    background-color: #fff;
+    font-family: "Spectral";
+    font-size: 20px;
+    text-align: center;
+    width: 75%;
+    line-height: 25px;
+    border:#4a2f09, solid, 2px;
+    border-radius: 20px;
+    padding: 14px 16px;
+    position: relative;
+    top: 5%;
+}
+.slide {
+    border: 2px solid #4a2f09;
+    border-radius: 20px;
+}
+
+*{box-sizing: border-box;}
+.mySlides{
+    display: none;
+	position:relative;
+}
+.mySlides img{
+    display:block;
+    margin:auto;
+}
+.prev, .next{
+    color: #4a2f09;
+    cursor: pointer;
+    width: auto;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+	text-decoration:none;
+}
+.next{
+    right: 50%;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover{
+    background-color: rgb(189, 165, 146);
+    border-radius: 20px;
+}
+.text{
+    color: #4a2f09;
+    font-family: "Spectral";
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: relative;
+    top: 2%;
+    left: 15%;
+    width: 80%;
+    text-align: center;
+}
+.fading{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade{
+    from{opacity: 0.4}
+    to{opacity:1}
+}
+body {
+    background-image: url(Screenshot\ 2024-06-17\ 212128.png);
+    background-repeat: repeat;
+    background-size: 100% auto;
+	background-attachment: fixed;
+}
+@media screen and (max-width:768px){
+	body{
+		background-size:cover;
+		background-position:top center;
+	}
+}
+footer{
+    font-family: "Macondo";
+    color: #4a2f09;
+    text-align: center;
+}
+.coding-skills{
+    font-family: "Sedan SC";
+    color: #4a2f09;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.coding-skills-image{
+    border: 2px solid #4a2f09;
+    border-radius: 20px;
+    position: relative;
+    left: 11%;
+    
+}
+.programming-languages{
+    font-family: "Sedan SC";
+    color: #4a2f09;
+    position: relative;
+}
+.about-programming{
+    background-color: #fff;
+    font-family: "Spectral";
+    font-size: 20px;
+    text-align: center;
+    width: 90%;
+    line-height: 25px;
+    border:#4a2f09, solid, 2px;
+    border-radius: 20px;
+    padding: 14px 16px;
+    position: relative;
+}
+.resume{
+    font-family: "Sedan SC";
+    color: #4a2f09;
+    position: relative;
+    text-align: center;
+}
+.resume-icon{
+    border: 2px solid #4a2f09;
+    border-radius: 20px;
+    position: relative;
+    left: 40%;
+    transition: 0.15s;
+}
+.resume-icon:hover{
+    transform: scale(1.05);
+}

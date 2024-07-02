@@ -1,0 +1,151 @@
+#google_translate_element select{
+    font-family: "Spectral";
+    color: #4a2f09;
+    font-size: 15px;
+    border: 2px solid #4a2f09;
+    border-radius: 20px;
+    padding: 4px 4px;
+    width: auto;
+    overflow: hidden;
+    position: relative;
+    right: 1%;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+.navbar {
+    background-color: #fff;
+    border: 2px solid #4a2f09;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    word-spacing: 2px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.navbar {
+    background-color: #fff;
+    border: 2px solid #4a2f09;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    word-spacing: 2px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.navbar {
+    background-color: #fff;
+    border: 2px solid #4a2f09;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    word-spacing: 2px;
+    display: flex;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*this is set for the small screen breakpoint*/
+@media screen and (max-width:576px){
+	.navbar{
+		height:auto;
+		background:unset;
+		border:unset;
+	}
+	.navbar-toggler {
+    	border: 2px solid #4a2f09 !important;
+		background:#fff;
+		margin-left:auto;
+	}
+	.nav{ 
+		background-color: #fff;
+    	border: 2px solid #4a2f09;
+    	border-radius: 20px;
+		padding:10px;
+	}
+	.nav-item{
+		width:100%;
+	}
+	.nav-link{
+		width:100%;
+		text-align:center;
+	}
+}
+.navbar a {
+    font-family: "Macondo";
+    float: left;
+    color: #4a2f09;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+}
+.navbar a:hover {
+    background-color: #BDA592;
+    color: black;
+}
+body {
+    background-image: url(Screenshot\ 2024-06-17\ 212128.png);
+    background-repeat: repeat;
+    background-size: 100% auto;
+	background-attachment: fixed;
+}
+@media screen and (max-width:768px){
+	body{
+		background-size:cover;
+		background-position:top center;
+	}
+}
+.aspirations{
+    font-family: "Sedan SC";
+    color: #4a2f09;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.short-term{
+    font-family: "Sedan SC";
+    color: #4a2f09;
+    text-align: left;
+    padding-bottom: 5px;
+}
+.about-short-term{
+    background-color: #fff;
+    font-family: "Spectral";
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    line-height: 25px;
+    border:#4a2f09, solid, 2px;
+    border-radius: 20px;
+    padding: 14px 16px;
+    position: relative;
+}
+.long-term{
+    font-family: "Sedan SC";
+    color: #4a2f09;
+    text-align: right;
+    padding-bottom: 5px;
+}
+.about-long-term{
+    background-color: #fff;
+    font-family: "Spectral";
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    line-height: 25px;
+    border:#4a2f09, solid, 2px;
+    border-radius: 20px;
+    padding: 14px 16px;
+    position: relative;
+}
+footer{
+    font-family: "Macondo";
+    color: #4a2f09;
+    text-align: center;
+}
