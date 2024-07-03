@@ -31,20 +31,30 @@ a{
 .goog-te-gadget{
     position: relative;
     left: 50%;
+    width: auto;
     max-width: 50%;
 }
-.navbar {
-    background-color: #fff;
-    border: 2px solid #4a2f09;
-    border-radius: 20px;
-    text-decoration: none;
-    width: 100%;
-    height: 50px;
-    word-spacing: 2px;
-    display: flex;
-    overflow: hidden;
-    margin-top: 5%;
-    margin-bottom: 5%;
+.goog-te-combo{
+    position: relative;
+    max-width: 100%;
+    width: auto;
+}
+
+@media (max-width: 768px) {
+    .goog-te-combo {
+        font-size: 12px; 
+        padding: 6px;
+        margin-right: auto;
+    }
+    .goog-te-gadget{
+        font-size: 14px;
+        margin-right: auto;
+    }
+    .span{
+        position: relative;
+        max-width: 100%;
+        width: auto;
+    }
 }
 .navbar {
     background-color: #fff;
@@ -59,20 +69,6 @@ a{
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.navbar {
-    background-color: #fff;
-    border: 2px solid #4a2f09;
-    border-radius: 20px;
-    text-decoration: none;
-    width: 100%;
-    height: 50px;
-    word-spacing: 2px;
-    display: flex;
-    overflow: hidden;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-/*this is set for the small screen breakpoint*/
 @media screen and (max-width:576px){
 	.navbar{
 		height:auto;
